@@ -1,0 +1,31 @@
+inventor.down.list.label.code = Código
+inventor.down.list.label.subject = Tema
+inventor.down.list.label.item = Item
+
+inventor.down.list.button.create = Crear
+
+inventor.down.form.label.code = Código:
+inventor.down.form.labecreationMomentx2 = Momento de Creación:
+inventor.down.form.label.subject = Tema:
+inventor.down.form.label.explanation = Explicación:
+inventor.down.form.label.startPeriod = Comienzo del Periodo:
+inventor.down.form.label.endPeriod = Fin del Periodo:
+inventor.down.form.label.quantity = Cantidad:
+inventor.down.form.label.additionalInfo = Información Adicional:
+inventor.down.form.label.item = Componente:
+
+inventor.down.form.button.update = Actualizar
+inventor.down.form.button.delete = Borrar
+inventor.down.form.button.create = Crear
+
+inventor.down.form.error.code-date = La fecha no es la actual
+inventor.down.form.error.regex = El código debe ser "w{2}:yy:mm:d{2}:dd", donde “yy”, “mm”, and “dd” hacen referencia al año, mes y día actuales respectivamente. "w{2}" hace referncia a dos letras aleatorias y "d{2}" a dos números aleatorios
+inventor.down.form.error.not-unique = El código no es único
+inventor.down.form.error.spam = Este texto es un texto spam
+inventor.down.form.error.start-period-not-enough = La fecha debe ser al menos un mes después de la fecha de creación
+inventor.down.form.error.end-period-one-week-before-start-period = La fecha debe ser al menos una semana después de la fecha de inicio
+inventor.down.form.error.incorrect-currency = Esta divisa no está disponible en el sistema
+inventor.down.form.error.negative-budget = El presupuesto no debe ser negativo
+inventor.down.form.error.item-null = Debe de haber un item
+inventor.down.form.error.item-does-not-exist = El item no existe
+inventor.down.form.error.item-not-available = No quedan componentes disponibles

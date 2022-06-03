@@ -871,28 +871,6 @@ bg=blue</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>616</x>
-      <y>272</y>
-      <w>264</w>
-      <h>152</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;
-Xx1
---
-+ code: String {regexp = "XXP", unique}
-+ xx2: Date {NotNull, Past}
-+ xx3: String {NotBlank, Length(max = 100)}
-+ xx4: String {NotBlank, Length(max = 255)}
-+ xx51: Date {NotNull}
-+ xx52: Date {NotNull}
-+ xx6: Money {NotNull, Positive}
-+ xx7: String {URL}
-bg=green</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>UMLNote</id>
     <coordinates>
       <x>648</x>
@@ -900,7 +878,7 @@ bg=green</panel_attributes>
       <w>184</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>El xx52 debe de 
+    <panel_attributes>El endPeriod debe de 
 ser una posterior al startPerior
 bg=blue</panel_attributes>
     <additional_attributes/>
@@ -913,7 +891,7 @@ bg=blue</panel_attributes>
       <w>160</w>
       <h>56</h>
     </coordinates>
-    <panel_attributes>El xx51 debe de ser,
+    <panel_attributes>El startPeriod debe de ser,
 al menos, un mes posterior
 a la creación
 bg=blue</panel_attributes>
@@ -935,25 +913,25 @@ bg=blue</panel_attributes>
     <coordinates>
       <x>584</x>
       <y>208</y>
-      <w>64</w>
+      <w>56</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0;60.0;50.0;60.0;80.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;50.0;50.0;50.0;80.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>512</x>
       <y>336</y>
-      <w>120</w>
+      <w>112</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 m1=1
 m2=0..n
 has a &gt;</panel_attributes>
-    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
@@ -978,5 +956,27 @@ bg=blue</panel_attributes>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>608</x>
+      <y>272</y>
+      <w>280</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Down
+--
++ code: String {regexp = "w{2}:yy:mm:d{2}:dd", unique}
++ creationMoment: Date {NotNull, Past}
++ Subject: String {NotBlank, Length(max = 100)}
++ Explanation: String {NotBlank, Length(max = 255)}
++ startPeriod: Date {NotNull}
++ endPeriod: Date {NotNull}
++ Quantity: Money {NotNull, Positive}
++ additionalInfo: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

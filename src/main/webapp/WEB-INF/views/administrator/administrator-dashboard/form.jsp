@@ -208,7 +208,7 @@
 
 
 <h2>
-	<acme:message code="administrator.dashboard.form.title.xx1"/>
+	<acme:message code="administrator.dashboard.form.title.down"/>
 </h2>
 
 <table class="table table-sm">
@@ -218,7 +218,7 @@
 			<acme:message code="administrator.dashboard.form.label.ratio"/>
 		</th>
 		<td>
-			<acme:print value="${ratioOfItemWithXx1}"/>
+			<acme:print value="${ratioOfItemWithDown}"/>
 		</td>
 	</tr>
 </table>
@@ -226,7 +226,7 @@
 <h3><acme:message code="administrator.dashboard.form.title.stats"/></h3>
 
 <table class="table table-sm">
-	<jstl:forEach var="entry" items="${statsXx6OfXx1}">
+	<jstl:forEach var="entry" items="${statsQuantityOfDown}">
 		<tr>
 			<th scope="row">
 				<acme:message code="administrator.dashboard.form.label.currency"/>
