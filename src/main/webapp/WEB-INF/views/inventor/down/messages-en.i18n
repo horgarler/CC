@@ -1,0 +1,31 @@
+inventor.down.list.label.code = Code
+inventor.down.list.label.subject = Subject
+inventor.down.list.label.item = Item
+
+inventor.down.list.button.create = Create
+
+inventor.down.form.label.code = Code:
+inventor.down.form.label.creationMoment = Creation Moment:
+inventor.down.form.label.subject = Subject:
+inventor.down.form.label.explanation = Explanation:
+inventor.down.form.label.startPeriod = Start Period:
+inventor.down.form.label.endPeriod = End Period:
+inventor.down.form.label.quantity = Quantity:
+inventor.down.form.label.additionalInfo = Additional Info:
+inventor.down.form.label.item = Component:
+
+inventor.down.form.button.update = Update
+inventor.down.form.button.delete = Delete
+inventor.down.form.button.create = Create
+
+inventor.down.form.error.code-date = The date is not current
+inventor.down.form.error.regex = The code must be "w{2}:yy:mm:d{2}:dd", where “yy”, “mm”, and “dd” refer to current year, month, and days. "w{2}" refers to two any random word characters and "d{2}" to two random digits
+inventor.down.form.error.not-unique = The code is not unique
+inventor.down.form.error.spam = This text is a spam text
+inventor.down.form.error.start-period-not-enough = The date must be at least one month after the creation date
+inventor.down.form.error.end-period-one-week-before-start-period = The date must be at least one week after the start date
+inventor.down.form.error.incorrect-currency = This currency is not avalaible in the system
+inventor.down.form.error.negative-budget = The budget must not be negative
+inventor.down.form.error.item-null = There must be one item
+inventor.down.form.error.item-does-not-exist = This item doesn't exist
+inventor.down.form.error.item-not-available = No components available

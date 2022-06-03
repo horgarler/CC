@@ -1,0 +1,3 @@
+key,code,creationMoment,subject,explanation,startPeriod,endPeriod,quantity,additionalInfo,key:item
+down-01,ab:22:05:11:16,2022/03/01 00:00,Primer down,Esta es una entidad creada para el Control Check de DP,2022/05/01 00:00,2022/05/10 00:00,"EUR 15,000.00",https://www.twitch.tv,Item-11
+down-02,ab:22:05:22:16,2022/03/01 00:30,Segundo down,Este no tiene link,2022/05/01 12:00,2022/05/10 12:00,"EUR 15,000.00",,Item-12
