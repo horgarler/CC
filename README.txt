@@ -14,7 +14,7 @@ University of Sevilla.  This project helps them start working on their new infor
 projects.
 
 To get this project up and running, please follow the appropriate guideline, taking into 
-account that you must link Acme-Framework-22.1 excluding the following resources:
+account that you must link Acme-Framework-22.7 excluding the following resources:
 
 - **/fragments/**
 
